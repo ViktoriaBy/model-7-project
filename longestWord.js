@@ -16,5 +16,5 @@ console.log(findLongestWord(["hi", "hello"]))
 
 
 
-find_Longest_Word(["hi", "hello"]);
+findLongestWord(["hi", "hello"]);
 // -> 5
