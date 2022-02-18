@@ -1,0 +1,35 @@
+EXTRA LARGE ARAY RESULTS
+
+doublerAppend = 4.3949 ms
+doublerInsert = 1.1148756 s
+
+###################################
+
+LARGE ARRAY RESULTS
+
+doublerAppend = 579.5 μs
+doublerInsert = 9.3677 ms
+
+###################################
+
+MEDIUM ARRAY RESULTS
+
+doublerAppend = 158 μs
+doublerInsert = 186.6 μs
+
+###################################
+
+SMALL ARRAY RESULTS
+
+doublerAppend = 119.4 μs
+doublerInsert = 58.9 μs
+
+###################################
+
+TINY ARRAY RESULTS
+
+doublerAppend = 102.3 μs
+doublerInsert = 36.5 μs
+
+For smaller arrays the doublerInsert seems to work good but when the array gets bigger I would switch to
+doublerAppend since for bigger arrays it works faster.
