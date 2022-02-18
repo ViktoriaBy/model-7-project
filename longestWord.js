@@ -18,3 +18,5 @@ console.log(findLongestWord(["hi", "hello"]))
 
 findLongestWord(["hi", "hello"]);
 // -> 5
+
+//SPACE COMPLEXITY O(n)

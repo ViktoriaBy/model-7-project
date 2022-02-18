@@ -3,7 +3,22 @@
 
 
 function addToZero(arr){
+
+    for(let n = 0; n < arr.length; n++){
+
+        let tempN = arr[n]
+
+        for(let i = 0; i < arr.length; i++)
+        {
+            if(i + tempN == 0){
+                console.log("returning true")
+                return true
+            }
+        }
+    }
     
+    console.log("returning false")
+    return false
 }
 
 
@@ -19,3 +34,5 @@ addToZero([1, 2, 3]);
 
 addToZero([1, 2, 3, -2]);
 // -> True
+
+//SPACE COMPLEXITY O(n^2)

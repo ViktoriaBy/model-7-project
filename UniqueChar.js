@@ -17,3 +17,5 @@ hasUniqueChars("Monday");
 
 hasUniqueChars("Moonday");
 // -> False
+
+//SPACE COMPLEXITY O(1)
